@@ -1,0 +1,45 @@
+/* Style for the body element */
+body {
+    font-family: Arial, sans-serif; /* Change font family */
+    background-color: #f4f4f4; /* Light grey background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for elements with class .container */
+.container {
+    width: 80%;
+    margin: 20px auto; /* Center the container */
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 8px;
+}
+
+/* Style for the header (h1) */
+h1 {
+    color: #333; /* Dark grey color */
+    text-align: center;
+}
+
+/* Style for elements with ID #main-image */
+#main-image {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 20px;
+}
+
+/* Style for the button with class .btn */
+.btn {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+}
+
+.btn:hover {
+    background-color: #45a049; /* Darker green when hovering */
+}
